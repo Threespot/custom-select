@@ -23,7 +23,9 @@ Looks for all elements with class `js-custom-select` and wraps each one inside i
 </div>
 ```
 
-`custom-select` will **not** override other classes. For example:
+`custom-select` will **not** override other classes.
+
+**For example:**
 ```html
 <select class="js-custom-select my-class">
   <option value="DC">DC</option>
@@ -32,7 +34,7 @@ Looks for all elements with class `js-custom-select` and wraps each one inside i
 </select>
 ```
 
-Becomes:
+**Becomes:**
 ```html
 <div class="js-custom-select">
   <select class="my-class">
